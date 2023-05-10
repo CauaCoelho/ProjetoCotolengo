@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="formHeader.css"/>
+    <link rel="icon" href="assetsForm/logo-removebg-preview.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+
+    <title>Formulário Pequeno Cotolengo</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="image-logo"><a href="../index.html"><img src="assetsForm/logo-removebg-preview.png" alt="logo pequeno cotolengo"></a></div>
+            <div class="text-logo">
+                <h1>Pequeno Cotolengo Palmas<br/><h4>Inscrição para Voluntários</h4></h1>
+            </div>
+        </div> <!-- container-logo header -->
+
+        <div class="menu-header">
+            <ul id="acesslinks">
+                <li><a href="#" target="_blank">Sobre</a></li>
+                <li><a href="https://www.instagram.com/pequenocotolengo_/" target="_blank">Instagram</a></li>
+            </ul>
+        </div> <!-- menu do header -->
+    </header> 
+    
+    <section class="principal"> <!-- start-form -->
+        
+         <form method="get" class="main-form">
+            <div id="container-form">
+                
+                <fieldset id="dataperson">
+                    <legend>Dados pessoais</legend>
+                    <label>
+                        Primeiro nome:<br/>
+                        <input type="text" name="firstName" required minlength="2" placeholder="Nome"><br>
+                    </label>
+
+                    <label>
+                        Sobrenome:<br/>
+                        <input type="text" name="lastName" required minlength="2" placeholder="Sobrenome"><br>
+                    </label>
+                    
+                    <label>
+                        Endereço:<br/>
+                        <input type="text" name="address" required minlength="3" placeholder="Endereço"><br>
+                    </label>
+
+                    <label>
+                        Telefone:<br/>
+                        <input type="tel" name="phone" required minlength="10" placeholder="(63) 9 9999-9999"><br>
+                    </label>
+
+                    <label>
+                        Instagram:<br/>
+                        <input type="email" name="instagram" placeholder="@instagram"><br>
+                    </label>
+
+                    <label>
+                        Aniversário:<br/>
+                        <input type="text" name="birthday" required placeholder="Exemplo: 7 de janeiro de 2019"><br>
+                    </label>
+                    <a href="form2.html" target="_self"><button>Próximo</button> </a>
+                </fieldset>
+            </div>
+
+           
+
+                
+        
+    </section> <!-- end-form -->
+
+</body>
+</html>

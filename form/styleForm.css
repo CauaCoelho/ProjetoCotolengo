@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-font: Verdana, Geneva, Tahoma, sans-serif;
+    --second-color: #E3C16F;
+    --main-color: #fcf5a3;
+}
+/** Cabeçalho */
+header {
+    width: 100%;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    color: #E3C16F;
+    font-family: var(--main-font);
+    
+    cursor: default; 
+    
+}
+.conteudo{
+    flex-wrap: wrap;
+
+}
+.image-logo {
+    width: 15%;
+
+}
+.image-logo img {
+    width: 100%;
+    border-radius: 30px;    
+}
+.text-logo {
+    margin-left: 30px;
+}
+.text-logo h1{
+    font-size: 35px;
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+ul li a {
+    text-decoration: none;
+}
+.menu-header li {
+    display: inline-block;
+    margin: 0px 10px;   
+    padding: 10px 20px;
+}
+.menu-header li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--second-color);
+    padding: 5px 15px;
+}
+.menu-header li a:hover {
+    background-color: #aaaaaa44;
+    border-radius: 25px;
+    width: 300px;
+      height: 150px;
+      margin: 20px auto;
+      transition: 600ms linear
+  
+}
+
+/** FORMULÁRIO */ 
+/* ! terminar */
+
+/*
+fieldset{
+    width: 1000px;
+    flex-wrap: nowrap;
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    background-color: #ff0000; 
+} 
+
+#container-form{
+    width: 75%;
+    height: 200vh;
+    margin: 10px;
+    padding: 5px 20px;
+    background-color: #EEE; 
+}
+
+.main-form label{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-bottom: 15px;
+}
+
+label textarea{
+    height: 80px;
+}
+
+#check{
+    display: inline-block;
+}
+
+#check label{
+    width: 300px;
+    margin: 0;
+}
+
+input[type="checkbox"]{
+    width: 10px;
+}
+*/
+
+.principal{
+    font-family: var(--main-font);
+    margin-left: 25%;
+    margin-top: 2%;
+
+}
+
+fieldset{
+    max-width: 550px;
+    width: 70%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="number"], input[type="email"]{
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"], label {
+    margin-bottom: 12px;
+}
+
+#dataperson input{
+    width: 80%;
+}
+
+.textarea{
+    width: 80%;
+    height: 100%;
+}
+#obs{
+    height: 200px;
+    border: 0;
+}
+
+button{
+    margin-bottom: 5%;
+    padding: 10px;
+}
+
