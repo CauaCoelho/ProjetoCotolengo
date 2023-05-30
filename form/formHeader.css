@@ -176,5 +176,19 @@ button:hover {
     text-align: center;
 }
 
+@media (min-height: 750px) {
+    fieldset #dataperson {
+        height: 544px;
+        width:464.38px;
+        }
+}
+
+@media (min-width: 700px) and (max-width:899px) {
+    fieldset #dataperson {
+        height: 344px;
+        width:264.38px;
+    }
+}
+
 
 
